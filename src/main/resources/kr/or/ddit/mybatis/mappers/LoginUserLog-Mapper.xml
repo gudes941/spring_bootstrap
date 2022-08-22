@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+<mapper namespace="LoginUserLog-Mapper">
+	<update id="insertLoginUserLog">
+	  insert into login_log(id,phone,email,ipAddress,indate)
+	  values(#{id},#{phone},#{email],#{ipAddress},#{indate})
+	</update>
+	
+	<update id="deleteLoginUserLog">
+	   delete from login_log
+	</update>
+
+</mapper>
+
+
+
+
+
+
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           
+
+
+
+
+
+
+
+
